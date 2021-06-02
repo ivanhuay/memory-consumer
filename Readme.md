@@ -35,4 +35,13 @@ MemoryConsumer(Boolean logsEnabled, Integer logInterbalMs)
 
 ## Methods
 #### fillMemoryMb(int):
-consume number of MB
+consume number of MB.
+
+#### enableLog():
+just enable logs .
+
+#### disableLog():
+just disable logs.
+
+#### setLogInterval(intervalMS):
+set the iterval miliseconds for logs.

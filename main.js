@@ -25,6 +25,10 @@ class MemoryConsumer {
         clearInterval(this.interval);
     }
 
+    setLogInterval(intervalMs) {
+        this.logIntervalMs = intervalMs;
+    }
+
     bytesToSize(bytes) {
         const sizes = ['bytes', 'kb', 'mb', 'gb', 'tb'];
         if (bytes === 0) {
