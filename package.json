@@ -1,0 +1,18 @@
+{
+  "name": "memory-consumer",
+  "version": "1.0.0",
+  "description": "RAM memory consumer for high memory usage testing.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "memory",
+    "testing"
+  ],
+  "author": "ivanhuay@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^7.27.0"
+  }
+}
