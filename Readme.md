@@ -13,8 +13,8 @@ const MemoryConsumer = require('memory-consumer');
 
 const consumer = new MemoryConsumer();
 
-consumer.fillMemoryMb(500); //consume aprox 500mb
-consumer.fillMemoryMb(1024); //consume aprox 1gb
+consumer.fillMemoryMb(500); //consume approx 500mb
+consumer.fillMemoryMb(1024); //consume approx 1gb
 ```
 
 ### Show logs
@@ -24,8 +24,8 @@ const MemoryConsumer = require('memory-consumer');
 
 const consumer = new MemoryConsumer(true);
 
-consumer.fillMemoryMb(500); //consume aprox 500mb
-consumer.fillMemoryMb(1024); //consume aprox 1gb
+consumer.fillMemoryMb(500); //consume approx 500mb
+consumer.fillMemoryMb(1024); //consume approx 1gb
 ```
 
 ## Arguments

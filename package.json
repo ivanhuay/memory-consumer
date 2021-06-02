@@ -1,6 +1,6 @@
 {
   "name": "memory-consumer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "RAM memory consumer for high memory usage testing.",
   "main": "main.js",
   "scripts": {
