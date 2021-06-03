@@ -8,6 +8,8 @@ Library made just to consume memory.
 ## Usage
 Basic usage:
 
+**--max-old-space-size property is probable needed**
+
 ```javascript
 const MemoryConsumer = require('memory-consumer');
 
