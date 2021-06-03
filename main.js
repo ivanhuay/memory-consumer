@@ -16,9 +16,13 @@ class MemoryConsumer {
     
     enableLog() {
         this.interval = setInterval(() => {
-            const used = this.bytesToSize(process.memoryUsage().heapUsed);
+            const used = this.getUsedMemory();
             process.stdout.write(`Memory used: ${used}.\n`);
         }, this.logIntervalMs);
+    }
+
+    getUsedMemory() {
+        return this.bytesToSize(process.memoryUsage().heapUsed);
     }
 
     disableLog() {
