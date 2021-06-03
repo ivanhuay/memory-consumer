@@ -45,6 +45,10 @@ class MemoryConsumer {
             this.memory[index + i].fill(1);
         }
     }
+
+    cleanMemory() {
+        this.memory = {};
+    }
 }
 
 module.exports = MemoryConsumer;

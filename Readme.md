@@ -45,3 +45,6 @@ just disable logs.
 
 #### setLogInterval(intervalMS):
 set the iterval miliseconds for logs.
+
+#### cleanMemory():
+clean the memory storage. (it could take some time until the garbage collector really cleans the memory)

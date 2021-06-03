@@ -12,3 +12,8 @@ setTimeout(() => {
     console.log('filling memory');
     consumer.fillMemoryMb(1024);
 }, 15000);
+
+setTimeout(() => {
+    console.log('clean memory');
+    consumer.cleanMemory();
+}, 20000);
